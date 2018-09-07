@@ -8,7 +8,7 @@ function appendKitten(name) {
 } 
 
 function prependKitten(name) {
-  var newerKittens = ['Arnold'];
+  var newerKittens = [name];
   return name.concat(kittens);
   
 }
