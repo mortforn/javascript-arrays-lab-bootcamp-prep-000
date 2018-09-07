@@ -8,7 +8,7 @@ function appendKitten(name) {
 } 
 
 function prependKitten(name) {
-  var newerKittens = kittens.concat(kittens.splice(0, name));
+  var newerKittens = name.concat(kittens);
   return newerKittens;
 }
 
