@@ -8,8 +8,9 @@ function appendKitten(name) {
 } 
 
 function prependKitten(name) {
-  var newerKittens = name.concat(kittens);
-  return newerKittens;
+  var newerKittens = ['Arnold'];
+  return name.concat(kittens);
+  
 }
 
 function removeLastKitten() {
